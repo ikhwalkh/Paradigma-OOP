@@ -15,7 +15,12 @@ public :
     }
 }; // batas class
 
+// mau di tampilkan
 int main(){
     Mahasiswa mhs;
-    mhs.nim
+    mhs.nim = 2025;
+    mhs.nama = "ikhwal";
+    mhs.nilai = 100;
+
+    mhs.printData();
 }
